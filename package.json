@@ -1,0 +1,29 @@
+{
+  "name": "wechat-mp-archiver",
+  "version": "1.0.0",
+  "description": "微信公众号文章全量归档工具：免凭证枚举历史文章并导出 docx（正文+图片内嵌）",
+  "main": "cli.js",
+  "bin": {
+    "wx-archive": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "公众号",
+    "archive",
+    "docx",
+    "crawler"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "html-to-docx": "^1.8.0",
+    "jszip": "^3.10.1"
+  }
+}
